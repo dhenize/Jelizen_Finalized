@@ -54,6 +54,12 @@ import mapImage from '../assets/pics/map.png';
 
 {/*MAIN FUNCTION*/}
 function Homepage() {
+
+  {/*RETURN TO TOP UPON LOADING*/}
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   //Introduction
   const introText = "Jelizen is committed to make difference in digital landscape through creating intuitive and visually stunning websites.";
 
