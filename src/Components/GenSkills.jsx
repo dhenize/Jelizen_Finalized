@@ -12,10 +12,10 @@ const GenSkills = ({ percentage, image }) => {
           setAnimate(true);
         } else {
           setAnimate(false);
-          setProgress(0); // Reset when out of view if you want to replay each time
+          setProgress(0);
         }
       },
-      { threshold: 0.6 } // Trigger when 60% of the element is visible
+      { threshold: 0.6 }
     );
 
     if (containerRef.current) observer.observe(containerRef.current);
