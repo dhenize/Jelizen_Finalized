@@ -148,7 +148,7 @@ const Infos =[
   },
   {
     name: "JEANNEN BASAY",
-    role: "frontend designer",
+    role: "frontend developer",
     description: "Born in Bacoor, Cavite and grow up in Imus City, Cavite. Currently, a third year student and taking a information technology at Cavite State University in Imus Campus. Jeannen is interested in web designing, editing video and photos. Aside from this, I also have a little knowledge of drawing but I am not a fan and I also like to listen to music and explore the topic on social media.",
     email: "ic.jeannen.basay@cvsu.edu.ph",
     fb: "Jeannen Kummer Basay",
